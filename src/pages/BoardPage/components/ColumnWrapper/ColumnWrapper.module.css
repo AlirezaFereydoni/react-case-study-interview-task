@@ -1,0 +1,50 @@
+.column {
+  border-radius: 2px;
+  padding: var(--spacing-xl);
+  transition: opacity var(--transition-base);
+}
+
+.columnOver {
+  opacity: 0.8;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.statusBacklog {
+  background: var(--color-status-backlog-bg);
+  color: var(--color-status-backlog-text);
+}
+
+.statusBacklog .title {
+  background: var(--color-status-backlog-bg);
+  color: var(--color-status-backlog-text);
+}
+
+.statusInProgress {
+  background: var(--color-status-in-progress-bg);
+  color: var(--color-status-in-progress-text);
+}
+
+.statusInProgress .title {
+  background: var(--color-status-in-progress-bg);
+  color: var(--color-status-in-progress-text);
+}
+
+.statusDone {
+  background: var(--color-status-done-bg);
+  color: var(--color-status-done-text);
+}
+
+.statusDone .title {
+  background: var(--color-status-done-bg);
+  color: var(--color-status-done-text);
+}
+
