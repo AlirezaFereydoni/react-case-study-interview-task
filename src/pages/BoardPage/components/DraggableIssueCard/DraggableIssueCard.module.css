@@ -1,0 +1,23 @@
+.dragging {
+  opacity: 0.8;
+  cursor: grabbing;
+  transform: rotate(2deg);
+}
+
+.wrapper {
+  transition: opacity var(--transition-base);
+}
+
+.wrapperDisabled {
+  cursor: pointer;
+}
+
+.wrapperDragging {
+  cursor: grabbing;
+  opacity: 0.5;
+}
+
+.wrapperGrab {
+  cursor: grab;
+}
+
