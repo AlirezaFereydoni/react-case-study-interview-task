@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.toastContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toastButton {
+  margin-left: var(--spacing-md);
+}
