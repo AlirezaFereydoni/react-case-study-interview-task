@@ -1,0 +1,11 @@
+.tag {
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  width: max-content;
+  text-transform: capitalize;
+  background: #8b5cf615;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+}

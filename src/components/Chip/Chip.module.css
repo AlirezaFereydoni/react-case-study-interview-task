@@ -1,0 +1,40 @@
+.chip {
+  padding: 0.375rem var(--spacing-md);
+  border-radius: var(--radius-md);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.025em;
+}
+
+.statusBacklog {
+  background-color: var(--color-status-backlog-bg);
+  color: var(--color-status-backlog-text);
+}
+
+.statusInProgress {
+  background-color: var(--color-status-in-progress-bg);
+  color: var(--color-status-in-progress-text);
+}
+
+.statusDone {
+  background-color: var(--color-status-done-bg);
+  color: var(--color-status-done-text);
+}
+
+.priorityLow {
+  background-color: var(--color-priority-low-bg);
+  color: var(--color-priority-low-text);
+}
+
+.priorityMedium {
+  background-color: var(--color-priority-medium-bg);
+  color: var(--color-priority-medium-text);
+}
+
+.priorityHigh {
+  background-color: var(--color-priority-high-bg);
+  color: var(--color-priority-high-text);
+}
+
