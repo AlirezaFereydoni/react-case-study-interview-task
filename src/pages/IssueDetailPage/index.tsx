@@ -184,7 +184,7 @@ export const IssueDetailPage = () => {
           <LabelValue label='Severity' value={issue.severity.toString()} />
           <LabelValue
             label='Created At'
-            value={dayjs(issue.createdAt).format('dddd, MMMM D, YYYY h:mm A')}
+            value={dayjs(issue.createdAt).format('YYYY/MM/DD HH:mm')}
           />
           {issue.userDefinedRank !== undefined && (
             <LabelValue label='User Defined Rank' value={issue.userDefinedRank.toString()} />

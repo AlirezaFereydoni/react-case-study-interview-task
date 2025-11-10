@@ -57,7 +57,7 @@
 
 .detailsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
 }
@@ -82,6 +82,7 @@
   margin-top: var(--spacing-lg);
   display: flex;
   gap: var(--spacing-md);
+  justify-content: flex-end;
 }
 
 .loading {
